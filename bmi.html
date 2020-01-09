@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <h1>BMI CALCULATOR</h1>
+</head>
+
+<body>
+    <form action="/bmi" method="post">
+        Height in Meter :<input type="text" name="height">
+        Weight in Kilogram :<input type="text" name="weight">
+
+        <button>Calculate bmi</button>
+        <label value="{{.bmi}}"></label>
+    </form>
+    <label>result</label>
+    <label value={{.bmi}}></label>
+</body>
+
+
+</html>
